@@ -5,7 +5,7 @@ node {
 	}
 
 	stage('Build image'){
-		app = docker.build('mjuuso/example-app')
+		app = docker.build('tatitati/example-app')
 	}
 
 	stage('Push image'){
